@@ -1,0 +1,119 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* My styles */ 
+body {
+  background-color: rgb(255, 228, 228);
+}
+
+h1 {
+  color: rgb(93, 160, 116);
+}
+
+.recipe-container {
+  display: block;
+  margin-top: 2rem;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  text-align: left;
+  width: 100%;
+  max-width: 400px;
+  margin: 25px auto;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card h2 {
+  font-size: 1.6rem;
+  color: #7e79b9;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  color: #ac6e3c;
+}
+
+.card ul {
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #4f4f4f; 
+}
+
+.card ul li {
+  margin: 5px 0;
+}
+
+.card ol {
+  padding-left: 20px;
+  font-size: 1rem;
+  color: #333; 
+}
+
+.card ol li {
+  margin: 8px 0;
+}
+
+.glaze {
+  background-color: #f9f9f9;
+  padding: 0.8em;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.glaze h4 {
+  font-size: 1rem;
+  color: #bc9e52;
+  margin-bottom: 5px;
+}
