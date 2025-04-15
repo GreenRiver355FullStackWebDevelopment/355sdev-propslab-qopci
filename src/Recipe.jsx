@@ -32,5 +32,5 @@ function Recipe({ recipe }) {
   )
 }
 
-export default Recipe;
+export default Recipe
 
